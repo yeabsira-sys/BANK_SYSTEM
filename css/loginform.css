@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #7c4e29;
+}
+
+.maincontainer {
+  width: 1100px;
+  height: auto;
+   margin: 0 10%;
+}
+.formcontainer {
+  background-image: url('../images/loginpagelogo.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1100px;
+  height: 625px;
+ 
+}
+.loginform{   
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    border: 1.4px solid #7c4e29;
+    display: inline-block;
+    flex-direction: column;
+    width: 420px;
+    height: 160px;
+    background-color: #7c4e29;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+.labelname {
+  font-size: 22px;
+  margin-right: 12px;
+  margin-top: 32px;
+  margin-left: 40px;
+  color: #d9bca9;
+}
+.inputvalue1 {
+  width: 240px;
+  margin-top: 32px;
+  height: 26px;
+  margin-left: 30px;
+  font-size: 14px;
+  border: 1.4px solid #7c4e29;
+}
+
+.labelpass {
+  font-size: 22px;
+  margin-right: 12px;
+  margin-top: 18px;
+  margin-left: 40px;
+  color: #d9bca9;
+}
+.inputvalue2 {
+  width: 240px;
+  margin-top: 18px;
+  height: 26px;
+  margin-left: 0px;
+  font-size: 14px;
+  border: 1.4px solid #7c4e29;
+}
+.inputvalue1:hover, .inputvalue2:active {
+  border: 1.4px solid #7c4e29;
+}
+.submitbtn {
+  background-color: #4d331f;
+  color: white;
+  font-size: 17px;
+  width: 80px;
+  padding: 8px 0px;
+  margin-left: 140px;
+  margin-top: 16px;
+}
+.forgetpasswordbtn {
+  background-color:#4d331f;
+  color: white;
+  font-size: 17px;
+  margin-left: 21px;
+  margin-top: 16px;
+  padding: 8px 0px;
+}
+.submitbtn:hover, .forgetpasswordbtn {
+  cursor: pointer;
+}

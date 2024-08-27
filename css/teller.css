@@ -1,0 +1,126 @@
+.nameholder span, .phonedate span,.nationregion span, .zoneworeda span, .kebelegend span, .emailoccupation span {
+  font-size: 16px;
+  color: rgb(243, 114, 114);
+}
+
+.nameholder,.phonedate,.nationregion,.zoneworeda,.kebelegend,.emailoccupation {
+  display: flex;
+  column-gap: 80px;
+  margin-left: 40px;
+
+}
+
+.values input, select {
+  width: 350px;
+  font-size: 16px;
+  padding: 4px 8px;
+  font-weight: 400;
+  border: 1px solid rgb(219, 199, 199);
+}
+.zoneworeda label,.kebelegend label,.emailoccupation label {
+  font-size: 20px;
+
+}
+.depositform, .blockacno, .withdrawform,.transferform, .nosenderacno {
+  background-color: rgb(144, 146, 145);
+  border-radius: 5px;
+  margin: 50px 150px 50px 150px;
+  display: flex;
+}
+.deposit label, .withdrawform label, .transferform label, .veiwbalance label, .senderreceiver label, .transform label, .values label{
+  font-size: 24px;
+  margin: 0px 50px;
+}
+.deposit input, .withdrawform input, .transferform input, .veiwbalance input,.senderreceiver input, .nameacc input  {
+  margin: 10px 50px;
+  width: 300px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.depositinfo, .withdrawinfo, .invalidacno, .invalidamount, .veiwbalance, .transaccount, .noaccno, .nodeposit  {
+  background-color: rgb(144, 146, 145);
+  border-radius: 5px;
+  margin: 50px 150px 50px 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 100px 100px;
+}
+.senderreceiver{
+  background-color: rgb(201, 207, 204);
+  border-radius: 5px;
+  margin: 50px 150px 50px 150px;
+  display: flex;
+  column-gap: 20px;
+  padding: 10px 0px 100px 100px;
+}
+.senderinfoholder{
+  background-color: rgb(144, 146, 145);
+  display: flex;
+  flex-direction: column;
+}
+.receiverinfoholder{
+  background-color: rgb(144, 146, 145);
+  display: flex;
+  flex-direction: column;
+}
+.transform {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(144, 146, 145);
+border-radius: 5px;
+margin: 50px 150px 50px 150px;
+padding: 10px 0px 100px 100px;
+
+}
+.options  {
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  border: 1px solid rgb(248, 240, 240);
+  padding: 10px;
+}
+.options input{
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(91, 91, 184);
+  border-radius: 3px;
+}
+.options input:hover{
+  background-color: rgb(41, 41, 212);
+  cursor: pointer;
+}
+.trandiv {
+  background-color: rgb(248, 240, 240);
+  padding: 5px;
+
+}
+
+.trantable,.depotable, .withtable {
+  border: 1px solid red;
+  background-color: bisque;
+  margin-left: 180px;
+  margin-right: 180px;
+
+}
+.tbltranrow {
+  display: grid;
+  grid-template-columns:repeat(5, 1fr);
+  padding: 6px;
+}
+.tbltranrow:nth-child(even) {
+  background-color: #8b7b7b;
+}
+.tblrow, .tblwithrow {
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  padding: 6px;
+}
+.tblrow:nth-child(even) {
+  background-color: #8b7b7b;
+}
+.tblwithrow:nth-child(even) {
+  background-color: #8b7b7b;
+}

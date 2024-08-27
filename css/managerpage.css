@@ -1,0 +1,221 @@
+.mainmanagercontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rightsideman {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 465px;
+  margin: 80px 0;
+ background-color: aqua;
+}
+.salary {
+  width: 230px;
+}
+.btnRegister, .btnclear {
+  display: inline-block;
+  margin-left: 70px;
+  padding: 4px;
+  background-color: chartreuse;
+  font-size: 18px;
+  width: 100px;
+  border-radius: 4px;
+  border: 0.7px solid rgb(216, 195, 216);
+}
+.btnRegister:hover, .btnclear:hover {
+  background-color: rgb(200, 255, 0);
+  border: 1px solid rgb(238, 105, 238);
+
+}
+.leftsideman {
+  margin-top: 80px;
+  margin-left: 380px;
+  margin-bottom: 180px;  
+  width: 1800px;
+}
+.nameholder span, .phonedate span {
+  font-size: 16px;
+  color: rgb(243, 114, 114);
+}
+.infocontainer {
+  background-color: rgb(144, 146, 145);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  row-gap: 30px;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 50px 0;
+  margin-bottom: 100px;
+}
+.nameholder, .phonedate {
+  display: flex;
+  column-gap: 80px;
+  align-items: flex-start;
+  justify-content: baseline;
+}
+.nameholder label, .phonedate label {
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+.values input, select {
+  margin-left: 20px;
+  width: 350px;
+  font-size: 16px;
+  padding: 4px 0px 4px 8px;
+  font-weight: 400;
+  border: 1px solid rgb(219, 199, 199);
+}
+.values input:hover, select:hover {
+  border: 1px solid rgb(131, 107, 236);
+}
+.listener {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 24px;
+}
+.listener input {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(68, 68, 231);
+  margin: 2px;
+  padding: 4px;
+}
+.listener input:hover{
+  cursor: pointer;
+  background-color: azure;
+}
+
+.userregpage {
+  background-color: rgb(144, 146, 145);
+  border-radius: 5px;
+  margin: 50px 150px 50px 150px;
+  height: 300px;
+}
+.user-registration-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+}
+.uservalue label {
+  font-size: 21px;
+}
+.uservalue input, select {
+  width: 300px;
+  padding: 8px;
+}
+.rememployee-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+}
+.empnameholder label, .empid label{
+  font-size: 21px;
+}
+.empnameholder input, .empid input {
+  width: 300px;
+  padding: 8px;
+  font-size: 18px;
+}
+.commitdelet {
+  background-color: rgb(144, 146, 145);
+  border-radius: 5px;
+  margin: 50px 150px 50px 150px;
+  height: 300px;
+}
+.rememployee {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 10px;
+}
+.blockcust, .blockacno, .updateaccname, .noaccountnum, .updateaccount, .closedacc, .closeaccount, .transaccount, .transform, .newaccount {
+  background-color: rgb(144, 146, 145);
+  border-radius: 5px;
+  margin: 50px 150px 50px 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 100px 100px;
+}
+.blockcust input, .blockacno input, .updateaccname input, .updateaccount input, .closedacc input, .closeaccount input, .transaccount input, .transform input, .updatepassword input, .newaccount input{
+  margin: 10px 50px;
+  width: 300px;
+  padding: 5px;
+  font-size: 18px;
+}
+.blockcust label, .blockacno label, .updateaccname label, .updateaccount label, .closedacc label, .closeaccount label, .transaccount label, .transform label, .updatepassword label, .newaccount label {
+  font-size: 24px;
+  margin: 0px 50px;
+}
+
+.options {
+  display: flex;
+  column-gap: 8px;
+}
+.options input{
+  margin: 10px;
+  width: 110px;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(91, 91, 184);
+  border-radius: 3px;
+}
+.options input:hover{
+  background-color: rgb(41, 41, 212);
+  cursor: pointer;
+}
+.trantable,.depotable, .withtable {
+  border: 1px solid red;
+  background-color: bisque;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 20px;
+}
+.tbltranrow {
+  display: grid;
+  grid-template-columns:repeat(5, 1fr);
+  padding: 6px;
+}
+.tbltranrow:nth-child(even) {
+  background-color: #8b7b7b;
+}
+.tblrow, .tblwithrow {
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  padding: 6px;
+}
+.tblrow:nth-child(even) {
+  background-color: #8b7b7b;
+}
+.tblwithrow:nth-child(even) {
+  background-color: #8b7b7b;
+}
+.logfiletable{ 
+  margin-top: 20px;
+  border: 1px solid red;
+  background-color: bisque;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.tbllogrow {
+
+  padding: 6px;
+}
+.tbllogrow:nth-child(even) {
+  background-color: #8b7b7b;
+}
+.updatepassword {
+  background-color: rgb(196, 218, 207);
+  margin: 50px 150px 50px 150px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 100px 100px;
+}
